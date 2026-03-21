@@ -13,6 +13,13 @@ const data = [
     image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24cedc1c-1891-4400-a43c-6a1b9379cd6e/NIKE+AIR+WINFLO+12.png",
     price: 1599000,
   },
+  {
+    id: 3,
+    title: "asdas",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24cedc1c-1891-4400-a43c-6a1b9379cd6e/NIKE+AIR+WINFLO+12.png",
+    price: 1232,
+  },
+ 
 ];
 
 export const GET = async (req: NextRequest) => {
