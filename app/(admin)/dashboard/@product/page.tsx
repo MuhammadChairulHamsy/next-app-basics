@@ -28,7 +28,7 @@ const AdminProductPage = () => {
   };
 
   return (
-    <div>
+    <div className="bg-sky-500 w-3/6 h-80 flex justify-center items-center rounded-lg">
       <button
         onClick={() => handleRevalidate()}
         className="text-slate-100 border px-2 py-1 rounded-lg m-5"
