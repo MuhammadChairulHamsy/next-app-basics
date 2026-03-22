@@ -24,13 +24,13 @@ const DetailProductPage = async ({
       <div className="w-[50%] mx-auto border">
         <Image
           src={product.image}
-          alt={product.title}
+          alt={product.name}
           height={800}
           width={800}
           className="object-cover aspect-square"
         />
         <div className="bg-slate-100 p-4 px-6">
-          <h3 className="text-slate-900 text-2xl">{product.title}</h3>
+          <h3 className="text-slate-900 text-2xl">{product.name}</h3>
           <p className="text-slate-900 text-2xl">Price: {product.price}</p>
         </div>
       </div>

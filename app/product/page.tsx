@@ -29,7 +29,7 @@ const ProductPage = async ({
               <div className="flex items-center space-x-3 mb-6">
               </div>
                 <h5 className="text-xl text-heading font-semibold tracking-tight truncate">
-                  {product.title}
+                  {product.name}
                 </h5>
               <div className="flex items-center justify-between mt-6">
                 <span className="text-3xl font-extrabold text-heading">
